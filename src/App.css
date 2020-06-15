@@ -8,8 +8,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Furi-logo {
+    animation: Furi-logo-spin infinite 5s linear;
   }
 }
 
@@ -28,11 +28,25 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes Furi-logo-spin {
+  0% {
+    opacity: 0;
+    margin-left: 0rem;
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    opacity: 0;
+    margin-left: 20rem;
+  }
+  50% {
+    opacity: 0.5;
+    margin-left: 0rem;
+  }
+  75% {
+    opacity: 1;
+    margin-right: 15rem;
+  }
+  100% {
+    opacity: 0;
+    margin-left: 0rem;
   }
 }
