@@ -1,0 +1,18 @@
+.Furi-logo {
+  animation-name: Furi-logo-spin;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+  margin-top: 2rem;
+}
+
+@keyframes Furi-logo-spin {
+  0% {
+    opacity: 0;
+    margin-right: 24rem;
+  }
+  100% {
+    opacity: 1;
+    margin-right: 0rem;
+  }
+}
