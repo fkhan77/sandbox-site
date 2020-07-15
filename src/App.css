@@ -11,16 +11,21 @@
 
 .Sidebar {
   min-height: 100%;
-  background-color: #24292e;
+  background-color: #b6b6b6;
   position: absolute;
   animation-duration: 1s;
-  z-index: 1;
+  z-index: 3;
+  width: 0%;
   animation-timing-function: ease;
   animation-fill-mode: forwards;
   border: black;
   border-width: 0.25rem;
   border-style: solid;
   border-style: none solid none none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes sidebar-open {
@@ -41,17 +46,34 @@
   }
 }
 
-.App-nav-container {
-  height: 4rem;
-  background-color: #24292e;
+.header {
+  height: 6rem;
   width: 100%;
   border: black;
   border-width: 0.25rem;
   border-style: none none solid none;
   display: flex;
+  overflow: hidden;
 }
 
-.App-nav {
+.header--background {
+  position: absolute;
+  height: 6rem;
+  background: url("./assets/images/space-header.png") repeat-x;
+  animation: slide 15s linear infinite;
+  width: 3838px;
+  z-index: 1;
+}
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1919px, 0, 0);
+  }
+}
+
+.header-nav {
   width: 70%;
   height: 100%;
   margin: auto;
@@ -59,9 +81,10 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  z-index: 2;
 }
 
-.App-nav-menu {
+.header-menu {
   align-items: center;
   display: flex;
   margin-left: 1%;
@@ -71,7 +94,7 @@
   fill: white;
 }
 
-.App-nav--item {
+.header-nav--item {
   font-family: "PlayFair Display";
   font-size: 1.5rem;
   color: white;
@@ -80,6 +103,6 @@
   -webkit-user-select: none;
 }
 
-.App-nav--item:hover {
+.header-nav--item:hover {
   color: rgb(255, 255, 255);
 }
