@@ -33,13 +33,13 @@
     width: 0%;
   }
   100% {
-    width: 17.5%;
+    width: 30%;
   }
 }
 
 @keyframes sidebar-close {
   0% {
-    width: 17.5%;
+    width: 30%;
   }
   100% {
     width: 0%;
@@ -60,26 +60,17 @@
   position: absolute;
   height: 6rem;
   background: url("./assets/images/space-header.png") repeat-x;
-  animation: slide 15s linear infinite;
-  width: 3838px;
+  width: 100%;
   z-index: 1;
-}
-@keyframes slide {
-  0% {
-    transform: translate3d(0, 0, 0);
-  }
-  100% {
-    transform: translate3d(-1919px, 0, 0);
-  }
 }
 
 .header-nav {
-  width: 70%;
+  width: 80%;
   height: 100%;
   margin: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   z-index: 2;
 }

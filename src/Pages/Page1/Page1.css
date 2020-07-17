@@ -1,17 +1,30 @@
 .solaire {
-  animation-name: solaire-animation;
-  animation-timing-function: ease;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
+  animation: solaire-animation-in 2s ease;
+  height: auto;
+  max-width: 100%;
+  cursor: pointer;
+  user-select: none;
 }
 
-@keyframes solaire-animation {
+@keyframes solaire-animation-in {
   0% {
     opacity: 0;
-    margin-top: 12rem;
+    margin-top: 100%;
   }
   100% {
     opacity: 1;
     margin-top: 0rem;
+  }
+}
+
+@keyframes solaire-animation-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+    cursor: default;
   }
 }

@@ -1,18 +1,66 @@
-.Furi-logo {
-  animation-name: Furi-logo-spin;
-  animation-timing-function: ease;
+.furi {
+  animation: furi-animation 3s ease;
   animation-fill-mode: forwards;
-  animation-duration: 2s;
-  margin-top: 2rem;
+  margin-top: 10%;
+  height: auto;
+  max-width: 80%;
+  user-select: none;
 }
 
-@keyframes Furi-logo-spin {
+@keyframes furi-animation {
   0% {
     opacity: 0;
-    margin-right: 24rem;
+    margin-right: 10%;
+  }
+  30% {
+    filter: invert(0);
+  }
+  35% {
+    filter: invert(1);
+  }
+  40% {
+    filter: invert(0);
+  }
+  45% {
+    filter: invert(1);
+  }
+  70% {
+    filter: invert(0);
+  }
+  75% {
+    filter: invert(1);
   }
   100% {
     opacity: 1;
     margin-right: 0rem;
+  }
+}
+
+.home-page--container {
+  /* animation: background-color-animation 3s ease; */
+  height: 100vh;
+}
+
+@keyframes background-color-animation {
+  30% {
+    background-color: white;
+  }
+  35% {
+    background-color: black;
+  }
+  40% {
+    background-color: white;
+  }
+  45% {
+    background-color: black;
+  }
+  70% {
+    background-color: white;
+  }
+  75% {
+    background-color: black;
+  }
+  100% {
+    background-color: #f6f8fa;
   }
 }

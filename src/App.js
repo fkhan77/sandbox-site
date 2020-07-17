@@ -14,7 +14,7 @@ function App() {
           animationName: showSidebar,
         }}
       >
-        <img src={spelunky} width='100%' />
+        <img src={spelunky} width='100%' alt='spelunky' />
       </div>
       <Router>
         <header className='header'>
