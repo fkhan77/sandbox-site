@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+
 .App {
   text-align: center;
   background-color: #f6f8fa;
@@ -7,6 +9,7 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: ease;
+  font-family: "Rowdies", cursive;
 }
 
 .Sidebar {
@@ -94,6 +97,18 @@
   -webkit-user-select: none;
 }
 
+.header-nav--item-bastion {
+  font-family: "Rowdies", cursive;
+  font-size: 2rem;
+}
+.header-nav--item-sunbro {
+  font-family: "Rowdies", cursive;
+  font-size: 2rem;
+}
+.header-nav--item-home {
+  font-family: "Rowdies", cursive;
+  font-size: 2rem;
+}
 .header-nav--item:hover {
   color: rgb(255, 255, 255);
 }

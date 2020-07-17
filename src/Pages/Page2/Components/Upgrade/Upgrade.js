@@ -16,7 +16,7 @@ function Upgrade({
   return (
     coinsPerClick >= cpcNeededToShow &&
     !upgrades.includes(name) && (
-      <div>
+      <div style={{ width: "50%", height: "100%" }}>
         <button
           class='upgrade-button'
           onClick={() => {
@@ -28,7 +28,7 @@ function Upgrade({
           }}
           style={{ marginBottom: "1rem", marginTop: "1rem" }}
         >
-          {name} (+{cpcUpgrade} COINS PER CLICK): {cost}
+          {name} (+{cpcUpgrade} SHARDS PER CLICK): {cost.toLocaleString()}
         </button>
       </div>
     )

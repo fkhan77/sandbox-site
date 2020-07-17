@@ -37,22 +37,28 @@ function App() {
           </svg>
           <div className='header-nav'>
             <Link to='/' style={{ textDecoration: "none" }}>
-              <div className='header-nav--item'>Farhad Khan</div>
+              <div className='header-nav--item header-nav--item-home'>
+                Farhad Khan
+              </div>
             </Link>
-            <Link to='/page1' style={{ textDecoration: "none" }}>
-              <div className='header-nav--item'>Projects</div>
+            <Link to='/sunbro' style={{ textDecoration: "none" }}>
+              <div className='header-nav--item header-nav--item-sunbro'>
+                Sun Bro
+              </div>
             </Link>{" "}
-            <Link to='/page2' style={{ textDecoration: "none" }}>
-              <div className='header-nav--item'>About</div>
+            <Link to='/thebastion' style={{ textDecoration: "none" }}>
+              <div className='header-nav--item header-nav--item-bastion'>
+                The Bastion
+              </div>
             </Link>{" "}
           </div>
         </header>
 
         <Switch>
-          <Route path='/page1'>
+          <Route path='/sunbro'>
             <Page1 />
           </Route>
-          <Route path='/page2'>
+          <Route path='/thebastion'>
             <Page2 />
           </Route>
           <Route path='/'>

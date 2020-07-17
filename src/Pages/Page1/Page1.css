@@ -1,6 +1,6 @@
 .solaire {
   animation-fill-mode: forwards;
-  animation: solaire-animation-in 2s ease;
+  animation: solaire-animation-in 1s ease;
   height: auto;
   max-width: 100%;
   cursor: pointer;
@@ -10,11 +10,9 @@
 @keyframes solaire-animation-in {
   0% {
     opacity: 0;
-    margin-top: 100%;
   }
   100% {
     opacity: 1;
-    margin-top: 0rem;
   }
 }
 
