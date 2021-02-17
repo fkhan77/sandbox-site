@@ -1,7 +1,7 @@
 .furi {
   animation: furi-animation 3s ease;
   animation-fill-mode: forwards;
-  margin-top: 10%;
+  margin-top: 5%;
   height: auto;
   max-width: 80%;
   user-select: none;

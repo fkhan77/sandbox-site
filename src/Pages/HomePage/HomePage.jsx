@@ -1,11 +1,12 @@
 import React from "react";
+import furi from "../../assets/images/furi.png";
 import "./HomePage.css";
 function Home() {
   return (
     <div className='home-page--container'>
       <div>
         <img
-          src='https://psmedia.playstation.com/is/image/psmedia/furi-two-column-01-ps4-eu-26oct15?$TwoColumn_Image$'
+          src={furi}
           className='furi'
           alt='furi'
         />
