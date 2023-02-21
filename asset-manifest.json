@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0cb037a.chunk.css",
-    "main.js": "/static/js/main.44583026.chunk.js",
-    "main.js.map": "/static/js/main.44583026.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.60707d35.js",
-    "runtime-main.js.map": "/static/js/runtime-main.60707d35.js.map",
-    "static/js/2.a07232db.chunk.js": "/static/js/2.a07232db.chunk.js",
-    "static/js/2.a07232db.chunk.js.map": "/static/js/2.a07232db.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.c2dc8b7ea7af7725aac361bff9246de1.js": "/precache-manifest.c2dc8b7ea7af7725aac361bff9246de1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e0cb037a.chunk.css.map": "/static/css/main.e0cb037a.chunk.css.map",
-    "static/js/2.a07232db.chunk.js.LICENSE.txt": "/static/js/2.a07232db.chunk.js.LICENSE.txt",
-    "static/media/bastion.png": "/static/media/bastion.037d371b.png",
-    "static/media/furi.png": "/static/media/furi.d9605b8b.png",
-    "static/media/solaire.png": "/static/media/solaire.435a762b.png",
-    "static/media/Page2.css": "/static/media/space-header.11f225cc.png",
-    "static/media/spelunky.png": "/static/media/spelunky.424d0b86.png"
+    "main.css": "/sandbox-site/static/css/main.6d1f28c4.chunk.css",
+    "main.js": "/sandbox-site/static/js/main.5335db63.chunk.js",
+    "main.js.map": "/sandbox-site/static/js/main.5335db63.chunk.js.map",
+    "runtime-main.js": "/sandbox-site/static/js/runtime-main.4da5ea8b.js",
+    "runtime-main.js.map": "/sandbox-site/static/js/runtime-main.4da5ea8b.js.map",
+    "static/js/2.a07232db.chunk.js": "/sandbox-site/static/js/2.a07232db.chunk.js",
+    "static/js/2.a07232db.chunk.js.map": "/sandbox-site/static/js/2.a07232db.chunk.js.map",
+    "index.html": "/sandbox-site/index.html",
+    "precache-manifest.c0fad0a46d272e769bad4711e1052197.js": "/sandbox-site/precache-manifest.c0fad0a46d272e769bad4711e1052197.js",
+    "service-worker.js": "/sandbox-site/service-worker.js",
+    "static/css/main.6d1f28c4.chunk.css.map": "/sandbox-site/static/css/main.6d1f28c4.chunk.css.map",
+    "static/js/2.a07232db.chunk.js.LICENSE.txt": "/sandbox-site/static/js/2.a07232db.chunk.js.LICENSE.txt",
+    "static/media/bastion.png": "/sandbox-site/static/media/bastion.037d371b.png",
+    "static/media/furi.png": "/sandbox-site/static/media/furi.d9605b8b.png",
+    "static/media/solaire.png": "/sandbox-site/static/media/solaire.435a762b.png",
+    "static/media/Page2.css": "/sandbox-site/static/media/space-header.11f225cc.png",
+    "static/media/spelunky.png": "/sandbox-site/static/media/spelunky.424d0b86.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.60707d35.js",
+    "static/js/runtime-main.4da5ea8b.js",
     "static/js/2.a07232db.chunk.js",
-    "static/css/main.e0cb037a.chunk.css",
-    "static/js/main.44583026.chunk.js"
+    "static/css/main.6d1f28c4.chunk.css",
+    "static/js/main.5335db63.chunk.js"
   ]
 }
