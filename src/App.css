@@ -89,8 +89,6 @@
 }
 
 .header-nav--item {
-  font-family: "PlayFair Display";
-  font-size: 1.5rem;
   color: white;
   font-weight: 600;
   cursor: pointer;
@@ -101,5 +99,5 @@
 }
 
 .header-nav--item:hover {
-  color: rgb(255, 255, 255);
+  color: #aeaeae;
 }
