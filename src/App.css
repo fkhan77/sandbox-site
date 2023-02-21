@@ -95,6 +95,7 @@
   font-weight: 600;
   cursor: pointer;
   -webkit-user-select: none;
+  user-select: none;
 }
 
 .header-nav--item-bastion {
