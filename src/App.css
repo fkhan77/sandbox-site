@@ -96,20 +96,10 @@
   cursor: pointer;
   -webkit-user-select: none;
   user-select: none;
+  font-family: "Rowdies", cursive;
+  font-size: 2rem;
 }
 
-.header-nav--item-bastion {
-  font-family: "Rowdies", cursive;
-  font-size: 2rem;
-}
-.header-nav--item-sunbro {
-  font-family: "Rowdies", cursive;
-  font-size: 2rem;
-}
-.header-nav--item-home {
-  font-family: "Rowdies", cursive;
-  font-size: 2rem;
-}
 .header-nav--item:hover {
   color: rgb(255, 255, 255);
 }

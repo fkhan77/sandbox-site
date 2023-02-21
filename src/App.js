@@ -37,17 +37,17 @@ function App() {
           </svg>
           <div className='header-nav'>
             <Link to='/' style={{ textDecoration: "none" }}>
-              <div className='header-nav--item header-nav--item-home'>
+              <div className='header-nav--item'>
                 Farhad Khan
               </div>
             </Link>
             <Link to='/sunbro' style={{ textDecoration: "none" }}>
-              <div className='header-nav--item header-nav--item-sunbro'>
+              <div className='header-nav--item'>
                 Sun Bro
               </div>
             </Link>{" "}
             <Link to='/thebastion' style={{ textDecoration: "none" }}>
-              <div className='header-nav--item header-nav--item-bastion'>
+              <div className='header-nav--item'>
                 The Bastion
               </div>
             </Link>{" "}
